@@ -1,0 +1,28 @@
+{
+  "author": "Mitch Crowe <code@mitchcrowe.com> (http://www.mitchcrowe.com)",
+  "ava": {
+    "files": [
+      "lib/**/*.test.js"
+    ],
+    "verbose": true
+  },
+  "description": "Subscribable store for Typescript",
+  "devDependencies": {
+    "@types/node": "^7.0.12",
+    "ava": "^0.21.0",
+    "typescript": "^2.4.2"
+  },
+  "files": [
+    "lib/"
+  ],
+  "license": "ISC",
+  "main": "lib/index.js",
+  "name": "@mcrowe/store",
+  "repository": "https://github.com/mcrowe/store",
+  "scripts": {
+    "build": "tsc",
+    "test": "ava",
+    "watch": "tsc -w"
+  },
+  "version": "0.0.1"
+}
