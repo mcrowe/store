@@ -24,5 +24,8 @@
     "test": "ava",
     "watch": "tsc -w"
   },
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "dependencies": {
+    "@mcrowe/channel": "0.0.4"
+  }
 }
